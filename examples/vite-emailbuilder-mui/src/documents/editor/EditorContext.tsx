@@ -24,7 +24,7 @@ const editorStateStore = create<TValue>(() => ({
   selectedScreenSize: 'desktop',
 
   inspectorDrawerOpen: true,
-  samplesDrawerOpen: true,
+  samplesDrawerOpen: false,
 }));
 
 export function useDocument() {
